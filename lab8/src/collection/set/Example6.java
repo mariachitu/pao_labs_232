@@ -1,4 +1,4 @@
-package collections.set;
+package collection.set;
 
 import files.model.Student;
 
