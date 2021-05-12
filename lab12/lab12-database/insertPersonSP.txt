@@ -1,0 +1,8 @@
+DELIMITER //
+CREATE PROCEDURE insertPerson(OUT id int, IN name varchar(30), IN age double)
+BEGIN
+INSERT INTO person(name,age)
+VALUES (name,age);
+SET id = LAST_INSERT_ID();
+END//
+DELIMITER ;
