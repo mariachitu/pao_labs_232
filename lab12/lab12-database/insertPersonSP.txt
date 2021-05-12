@@ -1,5 +1,5 @@
 DELIMITER //
-CREATE PROCEDURE insertPerson(OUT id int, IN name varchar(30), IN age double)
+CREATE PROCEDURE insertPerson(OUT id int, IN name varchar(40), IN age double)
 BEGIN
 INSERT INTO person(name,age)
 VALUES (name,age);
