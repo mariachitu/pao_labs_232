@@ -37,5 +37,7 @@ public class MainApplication {
 
         personRepository.insertPersonProcedure(new Person("Gigel", 40));
 
+        DatabaseConfiguration.closeDatabaseConnection();
+
     }
 }
